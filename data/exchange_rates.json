@@ -1,0 +1,130 @@
+{
+    "records": [
+        {
+            "id": "BTC_USD_2026-11-08T20:43:50.013420Z",
+            "from_currency": "BTC",
+            "to_currency": "USD",
+            "rate": 75733.0,
+            "timestamp": "2026-11-08T20:43:50.013420Z",
+            "source": "CoinGecko",
+            "meta": {
+                "raw_id": "bitcoin",
+                "request_ms": 1110,
+                "status_code": 200,
+                "etag": "W/\"2a98dd9677fe8ae540f8279d2892dcb1\""
+            }
+        },
+        {
+            "id": "ETH_USD_2026-11-08T20:43:50.013420Z",
+            "from_currency": "ETH",
+            "to_currency": "USD",
+            "rate": 2224.82,
+            "timestamp": "2026-11-08T20:43:50.013420Z",
+            "source": "CoinGecko",
+            "meta": {
+                "raw_id": "ethereum",
+                "request_ms": 1110,
+                "status_code": 200,
+                "etag": "W/\"2a98dd9677fe8ae540f8279d2892dcb1\""
+            }
+        },
+        {
+            "id": "SOL_USD_2026-11-08T20:43:50.013420Z",
+            "from_currency": "SOL",
+            "to_currency": "USD",
+            "rate": 89.19,
+            "timestamp": "2026-11-08T20:43:50.013420Z",
+            "source": "CoinGecko",
+            "meta": {
+                "raw_id": "solana",
+                "request_ms": 1110,
+                "status_code": 200,
+                "etag": "W/\"2a98dd9677fe8ae540f8279d2892dcb1\""
+            }
+        },
+        {
+            "id": "BTC_USD_2026-11-08T20:47:00.563252Z",
+            "from_currency": "BTC",
+            "to_currency": "USD",
+            "rate": 75760.0,
+            "timestamp": "2026-11-08T20:47:00.563252Z",
+            "source": "CoinGecko",
+            "meta": {
+                "raw_id": "bitcoin",
+                "request_ms": 813,
+                "status_code": 200,
+                "etag": "W/\"ce27cf4da7560745081f38c748fb4917\""
+            }
+        },
+        {
+            "id": "ETH_USD_2026-11-08T20:47:00.563252Z",
+            "from_currency": "ETH",
+            "to_currency": "USD",
+            "rate": 2226.01,
+            "timestamp": "2026-11-08T20:47:00.563252Z",
+            "source": "CoinGecko",
+            "meta": {
+                "raw_id": "ethereum",
+                "request_ms": 813,
+                "status_code": 200,
+                "etag": "W/\"ce27cf4da7560745081f38c748fb4917\""
+            }
+        },
+        {
+            "id": "SOL_USD_2026-11-08T20:47:00.563252Z",
+            "from_currency": "SOL",
+            "to_currency": "USD",
+            "rate": 89.27,
+            "timestamp": "2026-11-08T20:47:00.563252Z",
+            "source": "CoinGecko",
+            "meta": {
+                "raw_id": "solana",
+                "request_ms": 813,
+                "status_code": 200,
+                "etag": "W/\"ce27cf4da7560745081f38c748fb4917\""
+            }
+        },
+        {
+            "id": "BTC_USD_2026-11-08T20:47:52.883588Z",
+            "from_currency": "BTC",
+            "to_currency": "USD",
+            "rate": 75760.0,
+            "timestamp": "2026-11-08T20:47:52.883588Z",
+            "source": "CoinGecko",
+            "meta": {
+                "raw_id": "bitcoin",
+                "request_ms": 700,
+                "status_code": 200,
+                "etag": "W/\"ce27cf4da7560745081f38c748fb4917\""
+            }
+        },
+        {
+            "id": "ETH_USD_2026-11-08T20:47:52.883588Z",
+            "from_currency": "ETH",
+            "to_currency": "USD",
+            "rate": 2226.01,
+            "timestamp": "2026-11-08T20:47:52.883588Z",
+            "source": "CoinGecko",
+            "meta": {
+                "raw_id": "ethereum",
+                "request_ms": 700,
+                "status_code": 200,
+                "etag": "W/\"ce27cf4da7560745081f38c748fb4917\""
+            }
+        },
+        {
+            "id": "SOL_USD_2026-11-08T20:47:52.883588Z",
+            "from_currency": "SOL",
+            "to_currency": "USD",
+            "rate": 89.27,
+            "timestamp": "2026-11-08T20:47:52.883588Z",
+            "source": "CoinGecko",
+            "meta": {
+                "raw_id": "solana",
+                "request_ms": 700,
+                "status_code": 200,
+                "etag": "W/\"ce27cf4da7560745081f38c748fb4917\""
+            }
+        }
+    ]
+}

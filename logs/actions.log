@@ -1,0 +1,33 @@
+INFO 2026-11-08T23:43:28+03:00 REGISTER user='alice' currency='-' amount=- base='USD' rate=- result=OK
+INFO 2026-11-08T23:43:35+03:00 LOGIN user='alice' currency='-' amount=- base='USD' rate=- result=OK
+INFO 2026-11-08T23:43:48+03:00 Starting rates update
+INFO 2026-11-08T23:43:48+03:00 Fetching from CoinGecko
+INFO 2026-11-08T23:43:50+03:00 Fetching from CoinGecko... OK (3 rates)
+INFO 2026-11-08T23:43:50+03:00 Fetching from ExchangeRate-API
+ERROR 2026-11-08T23:43:50+03:00 Failed to fetch from ExchangeRate-API: Ошибка при обращении к внешнему API: не задана переменная окружения EXCHANGERATE_API_KEY.
+INFO 2026-11-08T23:43:50+03:00 Writing 3 rates to local storage
+WARNING 2026-11-08T23:43:50+03:00 Rates update completed with errors: Failed to fetch from ExchangeRate-API: Ошибка при обращении к внешнему API: не задана переменная окружения EXCHANGERATE_API_KEY.
+INFO 2026-11-08T23:46:59+03:00 Starting rates update
+INFO 2026-11-08T23:46:59+03:00 Fetching from CoinGecko
+INFO 2026-11-08T23:47:00+03:00 Fetching from CoinGecko... OK (3 rates)
+INFO 2026-11-08T23:47:00+03:00 Fetching from ExchangeRate-API
+ERROR 2026-11-08T23:47:00+03:00 Failed to fetch from ExchangeRate-API: Ошибка при обращении к внешнему API: не задана переменная окружения EXCHANGERATE_API_KEY.
+INFO 2026-11-08T23:47:00+03:00 Writing 3 rates to local storage
+WARNING 2026-11-08T23:47:00+03:00 Rates update completed with errors: Failed to fetch from ExchangeRate-API: Ошибка при обращении к внешнему API: не задана переменная окружения EXCHANGERATE_API_KEY.
+INFO 2026-11-08T23:47:52+03:00 Starting rates update
+INFO 2026-11-08T23:47:52+03:00 Fetching from CoinGecko
+INFO 2026-11-08T23:47:52+03:00 Fetching from CoinGecko... OK (3 rates)
+INFO 2026-11-08T23:47:52+03:00 Fetching from ExchangeRate-API
+ERROR 2026-11-08T23:47:52+03:00 Failed to fetch from ExchangeRate-API: Ошибка при обращении к внешнему API: не задана переменная окружения EXCHANGERATE_API_KEY.
+INFO 2026-11-08T23:47:52+03:00 Writing 3 rates to local storage
+WARNING 2026-11-08T23:47:52+03:00 Rates update completed with errors: Failed to fetch from ExchangeRate-API: Ошибка при обращении к внешнему API: не задана переменная окружения EXCHANGERATE_API_KEY.
+INFO 2026-11-08T23:47:52+03:00 GET_RATE user='anonymous' currency='BTC' amount=- base='EUR' rate=- result=ERROR error_type=ApiRequestError error_message='Ошибка при обращении к внешнему API: нет актуальных курсов для EUR_USD. Выполните update-rates.'
+INFO 2026-11-08T23:48:04+03:00 GET_RATE user='anonymous' currency='BTC' amount=- base='USD' rate=75760.00000000 result=OK
+INFO 2026-11-08T23:48:04+03:00 BUY user='alice' currency='BTC' amount=- base='USD' balance=0.0000->0.0100 rate=75760.00000000 result=OK
+INFO 2026-11-08T23:48:16+03:00 GET_RATE user='anonymous' currency='USD' amount=- base='USD' rate=1.00000000 result=OK
+INFO 2026-11-08T23:48:16+03:00 GET_RATE user='anonymous' currency='USD' amount=- base='USD' rate=1.00000000 result=OK
+INFO 2026-11-08T23:48:16+03:00 GET_RATE user='anonymous' currency='BTC' amount=- base='USD' rate=75760.00000000 result=OK
+INFO 2026-11-08T23:48:16+03:00 GET_RATE user='anonymous' currency='BTC' amount=- base='USD' rate=75760.00000000 result=OK
+INFO 2026-11-08T23:48:16+03:00 GET_RATE user='anonymous' currency='USD' amount=- base='USD' rate=1.00000000 result=OK
+INFO 2026-11-08T23:48:24+03:00 GET_RATE user='anonymous' currency='BTC' amount=- base='USD' rate=75760.00000000 result=OK
+INFO 2026-11-08T23:48:24+03:00 SELL user='alice' currency='BTC' amount=- base='USD' balance=0.0100->0.0050 rate=75760.00000000 result=OK
